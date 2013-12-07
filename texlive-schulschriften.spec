@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-schulschriften
 Version:	20121115
-Release:	3
+Release:	4
 Summary:	German "school scripts" from Suetterlin to the present day
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/schulschriften
