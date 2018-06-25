@@ -1,5 +1,5 @@
 Name:		texlive-schulschriften
-Version:	20170414
+Version:	20180303
 Release:	1
 Summary:	German "school scripts" from Suetterlin to the present day
 Group:		Publishing
