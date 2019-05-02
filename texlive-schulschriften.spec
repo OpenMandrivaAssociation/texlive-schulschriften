@@ -1,6 +1,6 @@
 Name:		texlive-schulschriften
-Version:	20180303
-Release:	2
+Version:	20190228
+Release:	1
 Summary:	German "school scripts" from Suetterlin to the present day
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/schulschriften
