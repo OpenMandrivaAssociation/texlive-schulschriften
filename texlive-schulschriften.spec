@@ -1,12 +1,12 @@
 Name:		texlive-schulschriften
-Version:	20190228
+Version:	59388
 Release:	1
 Summary:	German "school scripts" from Suetterlin to the present day
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/schulschriften
 License:	LPPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/schulschriften.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/schulschriften.doc.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/schulschriften.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/schulschriften.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -21,12 +21,12 @@ es moglich, beliebige deutsche Texte in diesen Schreibschriften
 zu schreiben.
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -37,7 +37,7 @@ zu schreiben.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1
+%autosetup -p1 -c -a1
 
 %build
 
