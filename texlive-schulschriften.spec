@@ -3,7 +3,7 @@ Version:	59388
 Release:	2
 Summary:	German "school scripts" from Suetterlin to the present day
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/fonts/schulschriften
+URL:		https://www.ctan.org/tex-archive/fonts/schulschriften
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/schulschriften.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/schulschriften.doc.r%{version}.tar.xz
